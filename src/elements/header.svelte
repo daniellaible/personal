@@ -2,6 +2,9 @@
 
     import {goto} from "$app/navigation";
 
+    export let location = '';
+
+
     function toDeveloper(){
         goto('/developer');
     }
@@ -35,28 +38,56 @@
                 </div>
 
                 <div class="flex flex-col">
-                    <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                        <button type="button" on:click={toDeveloper} >Developer</button>
-                    </div>
+                    {#if location === 'developer'}
+                        <div class="mt-28 text-green-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toDeveloper} >Developer</button>
+                        </div>
+                    {:else}
+                        <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toDeveloper} >Developer</button>
+                        </div>
+                    {/if}
+
                 </div>
 
                 <div class="flex flex-col">
-                    <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                        <button type="button" on:click={toManager} >Agile Manager</button>
+                    {#if location === 'manager'}
+                        <div class="mt-28 text-green-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toManager} >Agile Manager</button>
 
-                    </div>
+                        </div>
+                    {:else}
+                        <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toManager} >Agile Manager</button>
+
+                        </div>
+                    {/if}
+
+
                 </div>
 
                 <div class="flex flex-col">
-                    <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                    {#if location === 'about'}
+                    <div class=" mt-28 text-green-700 bg-yellow-600 content-baseline">
                         <button type="button" on:click={toAbout} >About</button>
                     </div>
+                    {:else}
+                        <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toAbout} >About</button>
+                        </div>
+                    {/if}
                 </div>
 
                 <div class="flex flex-col">
-                    <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                    {#if location === 'contact'}
+                    <div class=" mt-28 text-green-700 bg-yellow-600 content-baseline">
                         <button type="button" on:click={toContact} >Contact</button>
                     </div>
+                    {:else}
+                        <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
+                            <button type="button" on:click={toContact} >Contact</button>
+                        </div>
+                    {/if}
                 </div>
 
             </div>

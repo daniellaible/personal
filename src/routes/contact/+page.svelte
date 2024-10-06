@@ -3,6 +3,6 @@
 </script>
 
 <div>
-    <Header/>
+    <Header  location="contact"/>
     Contact
 </div>

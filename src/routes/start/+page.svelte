@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <Header/>
+    <Header location="start"/>
     Start
 </div>
 
