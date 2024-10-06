@@ -40,11 +40,11 @@
                 <div class="flex flex-col">
                     {#if location === 'developer'}
                         <div class="mt-28 text-green-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toDeveloper} >Developer</button>
+                            <button type="button" on:click={toDeveloper} >Entwicker</button>
                         </div>
                     {:else}
                         <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toDeveloper} >Developer</button>
+                            <button type="button" on:click={toDeveloper} >Entwicker</button>
                         </div>
                     {/if}
 
@@ -53,12 +53,12 @@
                 <div class="flex flex-col">
                     {#if location === 'manager'}
                         <div class="mt-28 text-green-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toManager} >Agile Manager</button>
+                            <button type="button" on:click={toManager} >Agiler Manager</button>
 
                         </div>
                     {:else}
                         <div class="mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toManager} >Agile Manager</button>
+                            <button type="button" on:click={toManager} >Agiler Manager</button>
 
                         </div>
                     {/if}
@@ -69,11 +69,11 @@
                 <div class="flex flex-col">
                     {#if location === 'about'}
                     <div class=" mt-28 text-green-700 bg-yellow-600 content-baseline">
-                        <button type="button" on:click={toAbout} >About</button>
+                        <button type="button" on:click={toAbout} >Über mich</button>
                     </div>
                     {:else}
                         <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toAbout} >About</button>
+                            <button type="button" on:click={toAbout} >Über mich</button>
                         </div>
                     {/if}
                 </div>
@@ -81,11 +81,11 @@
                 <div class="flex flex-col">
                     {#if location === 'contact'}
                     <div class=" mt-28 text-green-700 bg-yellow-600 content-baseline">
-                        <button type="button" on:click={toContact} >Contact</button>
+                        <button type="button" on:click={toContact} >Kontakt</button>
                     </div>
                     {:else}
                         <div class=" mt-28 text-blue-700 bg-yellow-600 content-baseline">
-                            <button type="button" on:click={toContact} >Contact</button>
+                            <button type="button" on:click={toContact} >Kontakt</button>
                         </div>
                     {/if}
                 </div>

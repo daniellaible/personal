@@ -4,5 +4,11 @@
 
 <div>
     <Header  location="contact"/>
-    Contact
+    Kontakt
 </div>
+
+<ul>
+    <li>Daniel Laible</li>
+    <li>Berliner Ring 55</li>
+    <li>72076 Tübingen</li>
+</ul>
