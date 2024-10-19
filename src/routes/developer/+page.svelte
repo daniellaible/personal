@@ -3,30 +3,40 @@
 </script>
 
 <div>
-    <Header  location="developer"/>
-    Developer
+    <Header location="developer"/>
+
+    <div class="mt-5 ml-20 text-2xl">
+        Software Entwickler
+    </div>
 </div>
 
-<ul>
-    <li>
-    Die Welt der Softwareentwicklung fasziniert mich schon seit vielen Jahren, und diese Leidenschaft hat sich zu einem festen Bestandteil meines beruflichen und persönlichen Lebens entwickelt. Die Möglichkeit, komplexe Probleme durch kreative Lösungen zu meistern, neue Technologien zu entdecken und Ideen in funktionale, nachhaltige Software umzusetzen, begeistert mich immer wieder aufs Neue.
-    </li>
+<div class="flex justify-center">
+<div class="w-5/6">
+<p class="w-full flex mt-5 text-justify">
+    Die Welt der Softwareentwicklung fasziniert mich schon seit der Kindheit, und diese Leidenschaft hat sich zu einem
+    festen Bestandteil meines beruflichen und persönlichen Lebens entwickelt. Die Möglichkeit, komplexe Probleme durch
+    kreative Lösungen zu meistern, neue Technologien zu entdecken und Ideen in funktionale, nachhaltige Software
+    umzusetzen, begeistert mich immer wieder aufs Neue.
+</p>
 
-    <li>
-    Meine ersten Schritte in der Programmierung unternahm ich, als ich begann, einfache Skripte zu schreiben und eigene kleine Projekte zu entwickeln. Schnell erkannte ich, dass Softwareentwicklung weit mehr ist als nur das Schreiben von Code – es ist eine Denkweise, bei der logisches Denken, präzise Planung und die Fähigkeit, sich in verschiedene Anwendungsbereiche hineinzudenken, entscheidend sind. Dieses Zusammenspiel von Technik, Kreativität und Problemlösung fasziniert mich bis heute.
-    </li>
+<p class="w-full flex mt-5 text-justify">
+    Meine ersten Schritte in der Programmierung unternahm ich, als ich begann, einfache Cheats für Spiele auf dem C64 zu schreiben.
+    Schnell erkannte ich, dass Softwareentwicklung weit mehr ist als nur das Schreiben
+    von Code – es ist ein Mindset, bei dem logisches Denken und die Fähigkeit, sich in verschiedene
+    Anwendungsbereiche hineinzudenken, entscheidend sind. Dieses Zusammenspiel von Technik und Kreativität um
+    Probleme zu lösen fasziniert mich bis heute.
+</p>
 
-    <li>
-    Besonders begeistert mich die stetige Weiterentwicklung in der Branche. Jede neue Programmiersprache, jedes neue Framework eröffnet neue Möglichkeiten und Herausforderungen. Ich sehe es als eine großartige Gelegenheit, mich kontinuierlich weiterzubilden, neue Werkzeuge zu erlernen und mein Wissen anzuwenden, um effiziente und innovative Lösungen zu entwickeln.
-    </li>
+<p class="w-full flex mt-5 text-justify">
+    Der Austausch von Ideen innerhalb eines Teams oder einer Community sind für mich ebenfalls essenziell. In meiner bisherigen Laufbahn habe ich
+    immer wieder erlebt, dass die besten Lösungen oft durch konstruktive Zusammenarbeit entstehen. Gemeinsam an
+    Projekten zu arbeiten, sich gegenseitig zu unterstützen und sich durch verschiedene Perspektiven weiterzuentwickeln,
+    ist für mich ein wichtiger Teil meiner Arbeit als Softwareentwickler.
+</p>
+</div>
+</div>
 
-    <li>
-    Teamarbeit und der Austausch von Ideen sind für mich ebenfalls essenziell. In meiner bisherigen Laufbahn habe ich immer wieder erlebt, dass die besten Lösungen oft durch konstruktive Zusammenarbeit entstehen. Gemeinsam an Projekten zu arbeiten, sich gegenseitig zu unterstützen und sich durch verschiedene Perspektiven weiterzuentwickeln, ist für mich ein wichtiger Teil meiner Arbeit als Softwareentwickler.
-    </li>
-
-    <li>
-    Ich freue mich darauf, meine Fähigkeiten in Ihrem Unternehmen einzubringen, mich neuen Herausforderungen zu stellen und gemeinsam im Team zukunftsweisende Softwarelösungen zu entwickeln.
-    </li>
-</ul>
+<div class="mt-5">
 Liste der Projekte
 Liste der eingesetzten Technologien
+</div>
