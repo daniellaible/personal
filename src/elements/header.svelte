@@ -26,6 +26,9 @@
         randomNumber =  Math.floor(Math.random() * quote.length);
     })
 
+    function toConsultant(){
+        goto('/consultant');
+    }
 
     function toDeveloper(){
         goto('/developer');
@@ -47,26 +50,26 @@
 
 <div class="bg-gray-100" >
 
-    <div class="grid grid-flow-row grid-cols-5 grid-rows-1 ">
+    <div class="grid grid-flow-row grid-cols-6 grid-rows-1 ">
         <div class=" ml-20 mt-6 ">
             <img class="rounded-full w-60 h-56" src="Dan.jpg" alt="Daniel Laible">
         </div>
 
         <div class="ml-12 col-span-4">
 
-            <div class="grid grid-flow-row grid-cols-4 grid-rows-2">
-                <div class="w-full mt-36 col-span-4">
+            <div class="grid grid-flow-row grid-cols-45grid-rows-2">
+                <div class="w-full mt-36 col-span-5">
                     {quote[randomNumber]}
                 </div>
 
                 <div class="flex flex-col">
-                    {#if location === 'developer'}
+                    {#if location === 'consultant'}
                         <div class="mt-28 text-2xl text-sky-800 content-baseline">
-                            <button type="button" on:click={toDeveloper} >Entwicker</button>
+                            <button type="button" on:click={toConsultant} >Beratung</button>
                         </div>
                     {:else}
                         <div class="mt-28 text-xl text-gray-900 content-baseline">
-                            <button type="button" on:click={toDeveloper} >Entwicker</button>
+                            <button type="button" on:click={toConsultant} >Beratung</button>
                         </div>
                     {/if}
 
@@ -75,17 +78,27 @@
                 <div class="flex flex-col">
                     {#if location === 'manager'}
                         <div class="mt-28 text-2xl text-sky-800 content-baseline">
-                            <button type="button" on:click={toManager} >Agiler Manager</button>
+                            <button type="button" on:click={toManager} >Agile Management</button>
 
                         </div>
                     {:else}
                         <div class="mt-28 text-xl text-gray-900 content-baseline">
-                            <button type="button" on:click={toManager} >Agiler Manager</button>
+                            <button type="button" on:click={toManager} >Agile Management</button>
 
                         </div>
                     {/if}
+                </div>
 
-
+                <div class="flex flex-col">
+                    {#if location === 'developer'}
+                        <div class="mt-28 text-2xl text-sky-800 content-baseline">
+                            <button type="button" on:click={toDeveloper} >Entwicklung</button>
+                        </div>
+                    {:else}
+                        <div class="mt-28 text-xl text-gray-900 content-baseline">
+                            <button type="button" on:click={toDeveloper} >Entwicklung</button>
+                        </div>
+                    {/if}
                 </div>
 
                 <div class="flex flex-col">
