@@ -6,65 +6,137 @@
     <Header location="manager"/>
 
     <div class="mt-5 ml-20 text-2xl">
-        Scrum-Master und Product-Owner
+        Scrum-Master & Product-Owner
+    </div>
+
+    <div class="flex justify-center">
+        <div class="w-5/6">
+            <div class="w-full  mt-5 text-justify">
+
+                <div class="w-full mt-5 text-justify text-2xl">
+                    Ich helfe Ihnen:
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <li>
+                        Scrum effektiv einzuführen oder zu optimieren, sodass Sie die vollen Vorteile der agilen
+                        Arbeitsweise nutzen können.
+                    </li>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <li>
+                        Ihre ScrumMaster, Product-Owner und Teams zu coachen, damit sie eigenständig arbeiten und
+                        kontinuierliche Verbesserungen vorantreiben.
+                    </li>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <li>Herausforderungen im agilen Arbeitsprozess zu lösen und Barrieren zu beseitigen, die den Erfolg
+                        Ihrer Projekte hemmen.
+                    </li>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <li>
+                        Bei der täglichen Arbeit als Scrum-Master oder Product-Owner und unterstütze Ihre Teams bis der agile
+                        Ansatz verinnerlicht wurde.
+                    </li>
+                </div>
+
+                <div class="w-full mt-5 text-justify text-2xl">
+                    Meine Leistungen im Überblick
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <div class="w-full text-xl">
+                        Scrum-Einführung und Implementierung
+                    </div>
+                    <div class="w-full">
+                        Ob Sie neu zu Scrum kommen oder bereits erste Erfahrungen haben – ich unterstütze Sie bei der
+                        Einführung oder Optimierung agiler Prozesse. Gemeinsam implementieren wir Scrum so, dass es
+                        perfekt zu Ihrem Unternehmen passt.
+                    </div>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <div class="w-full text-xl">
+                        Coaching für ScrumMaster und Teams
+                    </div>
+                    <div class="w-full">
+                        Der ScrumMaster ist das Herzstück eines erfolgreichen agilen Teams. Ich biete individuelle
+                        Coachings an, um Ihren ScrumMastern die Fähigkeiten und Werkzeuge zu vermitteln, die sie
+                        brauchen, um ihre Rolle exzellent auszufüllen. Auch Ihre Teams profitieren von gezieltem
+                        Training, um effizient und selbstorganisiert zu arbeiten.
+                    </div>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <div class="w-full text-xl">
+                        Agiles Projektmanagement
+                    </div>
+                    <div class="w-full">
+                        Als erfahrener Berater begleite ich Ihre Scrum-Projekte und sorge dafür, dass sie im Einklang
+                        mit den Scrum-Prinzipien durchgeführt werden. Ich helfe Ihnen, Hindernisse zu identifizieren,
+                        den Fortschritt zu überwachen und den Wert für den Kunden zu maximieren.
+                    </div>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <div class="w-full text-xl">
+                        Agile Transformation
+                    </div>
+                    <div class="w-full">
+                        Der Wandel zu einer agilen Organisation erfordert Zeit und Veränderungsbereitschaft. Ich
+                        unterstütze Sie dabei, eine agile Kultur zu etablieren, die über einzelne Teams hinausgeht und
+                        Ihr gesamtes Unternehmen erfasst. Gemeinsam erarbeiten wir eine Roadmap für Ihre agile
+                        Transformation
+                    </div>
+                </div>
+
+                <div class="w-full mt-5 text-justify">
+                    <div class="w-full text-xl">
+                        Gemeinsam zu agilen Höchstleistungen
+                    </div>
+                    <div class="w-full">
+                        Lassen Sie uns gemeinsam herausfinden, wie Scrum und agile Methoden Ihre Projekte zum Erfolg
+                        führen können. Kontaktieren Sie mich für ein unverbindliches Erstgespräch und erfahren Sie, wie
+                        ich Sie auf Ihrem Weg unterstützen kann.
+                    </div>
+                </div>
+
+            </div>
+
+            <form class="max-w-sm mt-5 ml-24">
+
+                <div class="mb-5">
+                    <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Firma</label>
+                    <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                </div>
+
+                <div class="mb-5">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ihre E-Mail Adresse</label>
+                    <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="max.mustermann@mustermann.de" required />
+                </div>
+
+                <div class="mb-5">
+                    <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ihre Telefonnummer</label>
+                    <input type="tel" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                </div>
+
+                <div>
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ihr Anliegen</label>
+                    <textarea id="message" rows="4"
+                              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Senden</button>
+
+            </form>
+        </div>
     </div>
 
 </div>
 
-<!--
-<ul>
-    <li>Certified Scrum Master</li>
-    <li>Certified Advanced Scrum Master</li>
-    <li>Certified Product Owner</li>
-    <li>Agile Change Manager</li>
-</ul>
 
-    WerdeGang
-
-<ul>
-    <li>Software Entwickler</li>
-    <li>Scrum Master</li>
-    <li>Product Owner</li>
-    <li>Leiter IT-Abteilung</li>
-    <li>Geschäftsführer</li>
-</ul>
--->
-<div class="flex justify-center">
-    <div class="w-5/6">
-        <p class="w-full flex mt-5 text-justify">
-            Die Welt des Software-Projektmanagements hat mich seit Beginn meiner beruflichen Laufbahn an begeistert,
-            insbesondere die agile Arbeitsweise mit Scrum. Was mich an dieser Methode besonders fasziniert, ist die Dynamik,
-            die Flexibilität und die klare Fokussierung auf Teamarbeit und kontinuierliche Verbesserung.
-            Scrum erlaubt es, Projekte nicht nur effizient und zielgerichtet zu steuern, sondern auch flexibel auf Veränderungen
-            zu reagieren – eine Fähigkeit, die in der Software-Entwicklung unerlässlich ist.
-        </p>
-
-        <p class="w-full flex mt-5 text-justify">
-            In meiner bisherigen Laufbahn habe ich erlebt, wie leistungsfähig und wertvoll agile Methoden sein können,
-            um den Entwicklungsprozess zu optimieren und gleichzeitig die Zufriedenheit des Teams und der Stakeholder zu
-            steigern. Das tägliche Arbeiten in mit Sprints, die ständige Reflektion und die enge Zusammenarbeit im
-            Team bieten ideale Voraussetzungen, um schnell auf neue Anforderungen zu reagieren und Lösungen zu
-            entwickeln, die den höchsten Qualitätsstandards entsprechen. Dieser iterative Ansatz motiviert mich,
-            weil er Raum für Innovation und Kreativität lässt, gleichzeitig aber durch klare Strukturen und
-            Prozesse gelenkt wird.
-        </p>
-
-        <p class="w-full flex mt-5 text-justify">
-            Als leidenschaftlicher Scrum-Enthusiast sehe ich meine Aufgabe darin, Teams zu befähigen, ihr volles
-            Potenzial auszuschöpfen. Die Rolle des Scrum Masters oder Product Owners ist für mich nicht nur eine
-            Position, sondern eine Verantwortung, das Zusammenspiel von Teammitgliedern zu moderieren, Hindernisse aus
-            dem Weg zu räumen und den Fokus auf das gemeinsame Ziel zu richten. Dabei liegt mir besonders am Herzen, die
-            Kommunikation und Transparenz zu fördern und eine Arbeitsatmosphäre zu schaffen, in der Vertrauen und
-            Offenheit dominieren.
-        </p>
-
-        <p class="w-full flex mt-5 text-justify">
-            Meine Stärke liegt darin, sowohl technische als auch organisatorische Herausforderungen zu verstehen und
-            diese in einem agilen Kontext lösungsorientiert zu managen. Das Erstellen und Priorisieren von Backlogs, die
-            enge Abstimmung mit den Stakeholdern und das Vorantreiben von Projekten – all das mache ich mit großer
-            Leidenschaft und dem Anspruch, stets einen Mehrwert für das gesamte Projektteam und das Unternehmen zu
-            generieren.
-        </p>
-    </div>
-</div>
-Servant Leader
